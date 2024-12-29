@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+.env
+Cargo.lock
+.idea/
+.vscode/
+data/*.csv
