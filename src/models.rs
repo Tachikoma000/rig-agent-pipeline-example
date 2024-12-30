@@ -1,4 +1,3 @@
-// src/models.rs
 use rig::Embed;
 use serde::{Deserialize, Serialize};
 use std::cmp::Ordering;
@@ -55,8 +54,8 @@ impl CustomerFeedback {
         self.profile_summary = format!(
             "Customer Profile: {} year old {} from {} with income ${:.2}. \
              Product Quality Rating: {}/10, Service Quality: {}/10. \
-             Purchases {} times. Feedback: {}. \
-             Loyalty Level: {}. Satisfaction: {:.1}%",
+             Purchases {} times per year. Feedback Score: {}. \
+             Loyalty Level: {}. Satisfaction Score: {:.1}%",
             self.age, self.gender, self.country, self.income,
             self.product_quality, self.service_quality,
             self.purchase_frequency, self.feedback_score,
