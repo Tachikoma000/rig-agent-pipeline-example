@@ -35,7 +35,7 @@ rig-agent-pipeline-example/
 
 ## Dataset
 
-The project uses a **synthetic dataset** sourced from Kaggle, which contains 38,444 customer records. Each record captures demographic and behavioral features:
+The project uses a **synthetic dataset** sourced from [Kaggle](https://www.kaggle.com/datasets/jahnavipaliwal/customer-feedback-and-satisfaction), which contains 38,444 customer records. Each record captures demographic and behavioral features:
 
 - `CustomerID`: Unique identifier.
 - `Age`, `Gender`, `Country`, `Income`: Demographic data.
@@ -59,6 +59,7 @@ This dataset is ideal for exploring customer satisfaction metrics and predictive
    git clone <repository-url>
    cd rig-agent-pipeline-example
    ```
+4. Dataset used in this example can be found here: https://www.kaggle.com/datasets/jahnavipaliwal/customer-feedback-and-satisfaction
 
 ### Installation
 
